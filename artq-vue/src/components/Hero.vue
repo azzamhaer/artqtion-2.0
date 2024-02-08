@@ -21,10 +21,17 @@ const updateCountdown = () => {
 
 setInterval(updateCountdown, 1000);
 updateCountdown();
+
+const scrollDown = () => {
+  window.scroll({
+    top: document.body.scrollHeight,
+    behavior: "smooth",
+  });
+};
 </script>
 
 <template>
-  <div class="w-screen h-screen flex flex-col justify-center items-center">
+  <div class="w-screen relative h-screen flex flex-col justify-center items-center">
     <div class="uppercase font-black flex flex-col justify-center items-center">
       <h1 class="text-8xl">Artqtion</h1>
 
@@ -47,8 +54,6 @@ updateCountdown();
       <h3 class="font-semibold text-lg">Seconds</h3>
       <div class="w-full"></div>
     </div>
-    <div>
-      <Arrow />
-    </div>
+    <Arrow class="animate-bounce absolute bottom-0 w-28 -translate-y-20" @click="scrollDown" />
   </div>
 </template>
