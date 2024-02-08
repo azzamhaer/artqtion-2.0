@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full">
+    <div class="relative w-full">
         <ul class="flex justify-end mb-10">
             <li class="text-4xl font-semibold cursor-pointer uppercase mr-10" v-for="title in tabTitles" :key="title"
                 :class="{ selected: title == selectedTitle }" @click="selectedTitle = title">
@@ -7,7 +7,7 @@
             </li>
         </ul>
         <div :class="{ 'w-16 right-[14.30rem]': selectedTitle === tabTitles[0], 'w-48 right-7': selectedTitle === tabTitles[1] }"
-            class="duration-300 text-slate-300 h-0.5 absolute -bottom-16 bg-gold-500"></div>
+            class="duration-300 text-slate-300 h-0.5 absolute top-12 bg-gold-500"></div>
         <slot></slot>
     </div>
 </template>
