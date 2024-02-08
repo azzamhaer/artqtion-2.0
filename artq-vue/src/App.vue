@@ -7,7 +7,7 @@ import Competition from "./components/Competition.vue";
 
 <template>
   <Navbar />
-  <div class="mt-16 bg-slate-800 text-white">
+  <div class="bg-slate-800 text-white bg">
     <RouterView />
   </div>
 </template>
