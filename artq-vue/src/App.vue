@@ -7,7 +7,10 @@ import Competition from "./components/Competition.vue";
 
 <template>
   <Navbar />
-  <div class="bg-slate-800 text-white bg">
+  <div class="bg-[url('./assets/img/bg/bg-2.png')] bg-fixed bg-cover w-screen h-screen fixed -z-50 top-0 left-0 brightness-90">
+    <div class="w-screen h-screen bg-black opacity-25"></div>
+  </div>
+  <div class="text-white">
     <RouterView />
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex p-3 w-full fixed top-0 left-0 text-white z-50">
+  <div class="flex bg-black bg-opacity-10 p-3 w-full fixed top-0 left-0 text-white z-50">
     <div>
       <span class="uppercase">
         Logo <br />
