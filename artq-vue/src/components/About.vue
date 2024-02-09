@@ -1,3 +1,27 @@
+<script setup>
+import { ref } from "vue";
+
+const countdownDate = new Date("Feb 24, 2024 00:00:00").getTime();
+
+const days = ref(0);
+const hours = ref(0);
+const minutes = ref(0);
+const seconds = ref(0);
+
+const updateCountdown = () => {
+  const now = new Date().getTime();
+  const distance = countdownDate - now;
+
+  days.value = Math.floor(distance / (1000 * 60 * 60 * 24));
+  hours.value = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  minutes.value = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  seconds.value = Math.floor((distance % (1000 * 60)) / 1000);
+};
+
+setInterval(updateCountdown, 1000);
+updateCountdown();
+</script>
+
 <template>
   <div class="py-20 px-10 flex items-center justify-center">
     <div class="grid container grid-cols-3">
