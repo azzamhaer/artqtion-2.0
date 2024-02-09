@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20 px-10 min-h-screen flex items-center justify-center">
+  <div class="py-20 px-10 flex items-center justify-center">
     <div class="grid container grid-cols-3">
       <div class="h-full">
         <img class="h-full object-cover rounded-bl-[3.5rem] rounded-tr-[3.5rem] rounded-tl-xl rounded-br-xl" src="../assets/img/bg/bg-1.jpg" alt="" />
