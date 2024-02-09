@@ -2,6 +2,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      default: ["Poppins", "sans-serif"],
+    },
     extend: {
       colors: {
         gold: {
