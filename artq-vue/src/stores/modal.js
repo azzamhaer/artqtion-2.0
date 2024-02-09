@@ -81,17 +81,18 @@ export const useModalStore = defineStore("modal", () => {
     },
   ]);
 
-  const modal = ref(false);
+  const modalState = ref(false);
   const modalData = ref({
     id: 0,
-    title: "Lorem",
+    title: "Lorem ipsum",
     btnLink: "",
-    description: "Lorem Ipsum",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi excepturi minima eos distinctio ipsum nesciunt voluptatem, qui, ad temporibus iusto facilis? Optio facilis modi ipsa, placeat adipisci voluptas impedit dolores?",
     btnTitle: "Register Here",
   });
 
   const openModal = (event) => {
-    modal.value = true;
+    modalState.value = true;
     modalData.value = event;
   };
 
