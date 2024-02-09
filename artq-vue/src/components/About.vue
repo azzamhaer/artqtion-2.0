@@ -18,10 +18,10 @@
                     </p>
                 </div>
                 <div class="w-64 flex justify-between">
-                    <button class="bg-gradient-to-r from-sky-900 p-2 rounded-full"><a
+                    <button class="bg-gradient-to-r from-gold-400 p-2 rounded-full"><a
                             class="text-lg font-semibold capitalize" href="">our
                             youtube</a></button>
-                    <button class="bg-gradient-to-r from-sky-900 p-2 rounded-full"><a
+                    <button class="bg-gradient-to-r from-gold-400 p-2 rounded-full"><a
                             class="text-lg font-semibold capitalize" href="">our
                             youtube</a></button>
                 </div>
