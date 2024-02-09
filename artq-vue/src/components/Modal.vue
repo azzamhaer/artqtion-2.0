@@ -5,15 +5,17 @@
         <CloseBtn />
       </div>
       <div class="flex grow h-full p-16">
-        <div class="w-full h-full justify-center flex flex-col grow gap-5">
-          <div>
-            <h1 class="text-4xl font-bold">{{ modal.modalData.title }}</h1>
+        <div class="w-full h-full justify-center grow flex flex-col gap-5">
+          <div class="w-full justify-center flex flex-col grow gap-5">
+            <div>
+              <h1 class="text-4xl font-bold">{{ modal.modalData.title }}</h1>
+            </div>
+            <div>
+              <p class="text-lg">{{ modal.modalData.description }}</p>
+            </div>
           </div>
-          <div>
-            <p class="text-lg">{{ modal.modalData.description }}</p>
-          </div>
-          <div>
-            <a class="p-3 bg-gold-800 rounded-xl" :href="modal.modalData.btnLink">{{ modal.modalData.btnTitle }}</a>
+          <div class="w-full text-white">
+            <a class="p-4 bg-green-500 rounded-xl w-full flex justify-between items-center" :href="modal.modalData.btnLink">{{ modal.modalData.btnTitle }} <ArrowRight class="w-7" /></a>
           </div>
         </div>
       </div>
@@ -23,6 +25,7 @@
 
 <script setup>
 import CloseBtn from "./icons/CloseBtn.vue";
+import ArrowRight from "./icons/ArrowRight.vue";
 import { useModalStore } from "@/stores/modal";
 const modal = useModalStore();
 </script>

@@ -1,16 +1,16 @@
 <template>
   <div class="relative w-full">
     <ul class="flex justify-end mb-10">
-      <li class="text-4xl font-semibold cursor-pointer uppercase mr-10" v-for="title in tabTitles" :key="title" :class="{ selected: title === selectedTitle }" @click="selectedTitle = title">
+      <li class="text-3xl font-semibold cursor-pointer uppercase mr-10" v-for="title in tabTitles" :key="title" :class="{ selected: title === selectedTitle }" @click="selectedTitle = title">
         {{ title }}
       </li>
     </ul>
     <div
       :class="{
-        '-translate-x-[110%]': selectedTitle === tabTitles[0],
+        '-translate-x-[118%]': selectedTitle === tabTitles[0],
         'translate-x-0 ': selectedTitle === tabTitles[1],
       }"
-      class="duration-300 text-slate-300 w-[9.75rem] h-0.5 absolute top-12 right-7 bg-gold-500"
+      class="duration-300 text-slate-300 w-32 h-0.5 absolute top-12 right-7 bg-gold-500"
     ></div>
     <slot></slot>
   </div>

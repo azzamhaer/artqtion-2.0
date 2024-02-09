@@ -2,17 +2,15 @@
   <div class="min-h-screen flex items-center py-20 w-full justify-center">
     <TabsWrapper class="container" :tabTitles="eventTitles">
       <Tab v-for="event in events" :key="event.id" :title="event.name">
-        <div class="w-full flex justify-center">
-          <div class="grid grid-cols-3 container gap-16 w-full h-full">
-            <div @click="openModal(competition)" v-for="competition in event.competitions" :key="competition.id" class="group relative shadow-lg shadow-gold-200 py-10 items-center h-48 rounded-[2rem] bg-gray-900 px-4 flex overflow-hidden">
-              <div class="p-1 pt-6 w-1/2 overflow-hidden">
-                <h1 class="text-4xl font-semibold uppercase text-start text-white self-end mx-4 mb-3">{{ competition.title }}</h1>
-                <div class="w-full group-hover:translate-x-0 -translate-x-[200%] duration-300 ease-in-out h-1 bg-gold-900"></div>
-                <!-- <div class="h-0 group-hover:h-auto duration-300 transition-all ease-in-out">
-                  <p>
-                    {{ competition.description }}
-                  </p>
-                </div> -->
+        <div class="w-full flex">
+          <div class="flex gap-5 p-3 overflow-x-scroll container">
+            <div @click="openModal(competition)" class="bg-gold-900 h-96 min-w-[20rem] rounded-xl group" v-for="competition in event.competitions" :key="competition.id">
+              <div class="h-1/2 p-5 uppercase flex flex-row-reverse"></div>
+              <div class="h-1/2 p-5 uppercase flex text-3xl font-semibold flex-col-reverse">
+                <div class="w-3/4 overflow-hidden">
+                  <h3>{{ competition.title }}</h3>
+                  <div class="bg-blue-900 h-2 w-full mt-3 -translate-x-full duration-300 group-hover:translate-x-0"></div>
+                </div>
               </div>
             </div>
           </div>
