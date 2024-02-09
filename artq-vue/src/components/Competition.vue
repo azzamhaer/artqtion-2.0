@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen py-20">
+    <div class="h-full py-20">
         <TabsWrapper>
             <Tab title="SI">
                 <div class="px-10">
