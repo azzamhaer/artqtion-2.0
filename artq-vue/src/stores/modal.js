@@ -56,21 +56,21 @@ export const useModalStore = defineStore("modal", () => {
       name: "Online",
       competitions: [
         {
-          id: 1,
+          id: 7,
           title: "Kanvas Sejarah",
           btnLink: "../assets/img/bg-1.jpg",
           description: "Lorem Ipsum",
           btnTitle: "Register Here",
         },
         {
-          id: 1,
+          id: 8,
           title: "Debat",
           btnLink: "../assets/img/bg-1.jpg",
           description: "Lorem Ipsum",
           btnTitle: "Register Here",
         },
         {
-          id: 1,
+          id: 9,
           title: "Talkshow",
           btnLink: "../assets/img/bg-1.jpg",
           description: "Lorem Ipsum",
@@ -82,14 +82,20 @@ export const useModalStore = defineStore("modal", () => {
   ]);
 
   const modal = ref(false);
-  const modalAttributes = ref({
-    title: "",
-    content: "",
-    btnTitle: "",
+  const modalData = ref({
+    id: 0,
+    title: "Lorem",
     btnLink: "",
+    description: "Lorem Ipsum",
+    btnTitle: "Register Here",
   });
 
-  const eventTitles = events.value.map((event) => event.title);
+  const openModal = (event) => {
+    modal.value = true;
+    modalData.value = event;
+  };
 
-  return { events, eventTitles };
+  const eventTitles = events.value.map((event) => event.name);
+
+  return { events, eventTitles, openModal, modal, modalData };
 });
