@@ -5,7 +5,7 @@ export const useModalStore = defineStore("modal", () => {
   const events = ref([
     {
       id: 1,
-      name: "Offline",
+      name: "Online",
       competitions: [
         {
           id: 1,
@@ -65,7 +65,7 @@ export const useModalStore = defineStore("modal", () => {
     },
     {
       id: 2,
-      name: "Online",
+      name: "Offline",
       competitions: [
         {
           id: 7,
