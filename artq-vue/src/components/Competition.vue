@@ -6,7 +6,7 @@
           <div class="flex gap-5 p-3 overflow-x-scroll container">
             <div @click="openModal(competition)" class="bg-gold-900 h-96 min-w-[20rem] rounded-xl group" v-for="competition in event.competitions" :key="competition.id">
               <div class="h-1/2 p-5 uppercase flex flex-row-reverse">
-                <!-- <img class="w-16 h-auto" :src="competition.imgUrl" alt="" /> -->
+                <img class="w-16 h-auto" :src="competition.imgUrl" alt="" />
               </div>
               <div class="h-1/2 p-5 uppercase flex text-3xl font-bold flex-col-reverse">
                 <div class="w-3/4 overflow-hidden">
