@@ -37,14 +37,14 @@ const scrollDown = () => {
 
       <h1 class="text-[5.3rem]">Three.Zero</h1>
     </div>
-    <div class="py-8 px-20 rounded-[3rem] bg-gold-500 gap-y-1 gap-x-5 shadow-gold-400 shadow-lg bg-opacity-65 grid grid-cols-7 text-center justify-center items-center my-5">
-      <h2 class="font-bold text-7xl">{{ days }}</h2>
-      <h2 class="font-bold text-7xl">:</h2>
-      <h2 class="font-bold text-7xl">{{ hours }}</h2>
-      <h2 class="font-bold text-7xl">:</h2>
-      <h2 class="font-bold text-7xl">{{ minutes }}</h2>
-      <h2 class="font-bold text-7xl">:</h2>
-      <h2 class="font-bold text-7xl">{{ seconds }}</h2>
+    <div class="py-8 px-20 rounded-[3rem] bg-gold-500 gap-y-1 gap-x-2 shadow-gold-400 shadow-lg bg-opacity-65 grid grid-cols-7 text-center justify-center items-center my-5">
+      <h2 class="font-bold text-6xl">{{ days }}</h2>
+      <h2 class="font-bold text-6xl">:</h2>
+      <h2 class="font-bold text-6xl">{{ hours }}</h2>
+      <h2 class="font-bold text-6xl">:</h2>
+      <h2 class="font-bold text-6xl">{{ minutes }}</h2>
+      <h2 class="font-bold text-6xl">:</h2>
+      <h2 class="font-bold text-6xl">{{ seconds }}</h2>
       <h3 class="font-semibold text-lg">Days</h3>
       <span></span>
       <h3 class="font-semibold text-lg">Hours</h3>
