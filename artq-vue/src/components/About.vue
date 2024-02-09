@@ -9,13 +9,13 @@ const minutes = ref(0);
 const seconds = ref(0);
 
 const updateCountdown = () => {
-  const now = new Date().getTime();
-  const distance = countdownDate - now;
+    const now = new Date().getTime();
+    const distance = countdownDate - now;
 
-  days.value = Math.floor(distance / (1000 * 60 * 60 * 24));
-  hours.value = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  minutes.value = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  seconds.value = Math.floor((distance % (1000 * 60)) / 1000);
+    days.value = Math.floor(distance / (1000 * 60 * 60 * 24));
+    hours.value = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    minutes.value = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    seconds.value = Math.floor((distance % (1000 * 60)) / 1000);
 };
 
 setInterval(updateCountdown, 1000);
@@ -23,17 +23,17 @@ updateCountdown();
 </script>
 
 <template>
-    <div class="py-20 lg:px-10 min-h-screen flex items-center justify-center">
+    <div class="py-20 px-5 lg:px-10 min-h-screen flex items-center justify-center">
         <div class="grid container grid-cols-1 lg:grid-cols-3">
             <div class="h-full">
                 <img class="h-full object-cover rounded-bl-[3.5rem] rounded-tr-[3.5rem] rounded-tl-xl rounded-br-xl"
                     src="../assets/img/bg/bg-1.jpg" alt="" />
             </div>
-            <div class="col-span-2 ml-20 py-5">
+            <div class="col-span-2 lg:ml-20 py-5">
                 <div>
-                    <h2 class="text-5xl uppercase font-semibold">About</h2>
-                    <div class="duration-300 text-slate-300 w-48 h-0.5 mt-3 mb-4 bg-gold-500"></div>
-                    <p class="text-lg mb-10">
+                    <h2 class="text-4xl lg:text-5xl uppercase font-semibold">About</h2>
+                    <div class="duration-300 text-slate-300 w-36 lg:w-48 h-0.5 mt-3 mb-4 bg-gold-500"></div>
+                    <p class="text-sm lg:text-lg mb-5 lg:mb-10">
                         Art, Quranic, Technology, dan Competition atau ArtQTion adalah kegiatan tahunan yang di adakan oleh
                         Santri Sekolah Impian sejak tahun 2022. <br />
                         <br />
@@ -51,18 +51,18 @@ updateCountdown();
                         memberikan inspirasi dan pencerahan kepada para peserta.
                     </p>
                 </div>
-                <div class="w-64 flex justify-between">
+                <div class="w-56 lg:w-64 flex justify-between">
                     <button class="bg-gradient-to-r from-gold-400 p-2 rounded-full"><a
-                            class="text-lg font-semibold capitalize" href="">our youtube</a></button>
+                            class="text-sm lg:text-lg font-semibold capitalize" href="">our youtube</a></button>
                     <button class="bg-gradient-to-r from-gold-400 p-2 rounded-full"><a
-                            class="text-lg font-semibold capitalize" href="">our youtube</a></button>
+                            class="text-sm lg:text-lg font-semibold capitalize" href="">our youtube</a></button>
                 </div>
                 <div class="flex mt-8">
-                    <div class="h-28 mx-5">
+                    <div class="h-12 lg:h-28 mx-3 lg:mx-5">
                         <img class="h-full object-cover" src="../assets/img/logo-os.png" alt="" />
                     </div>
                     <div class="duration-300 text-slate-300 w-px mx-5 bg-gold-500"></div>
-                    <div class="h-28 mx-5">
+                    <div class="h-12 lg:h-28 mx-3 lg:mx-5">
                         <img class="h-full object-cover" src="../assets/img/logo-si.png" alt="" />
                     </div>
                     <div class="duration-300 text-slate-300 w-px mx-5 bg-gold-500"></div>
