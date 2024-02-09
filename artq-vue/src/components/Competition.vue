@@ -1,62 +1,31 @@
 <template>
-    <div class="h-full py-20">
-        <TabsWrapper>
-            <Tab title="SI">
-                <div class="px-10">
-                    <div class="grid grid-cols-3 gap-28 w-full h-full">
-                        <div v-for="item in intCompetition" :key="item.nama"
-                            class="relative h-96 rounded-lg bg-gray-900 pb-2 flex justify-center overflow-hidden">
-                            <img class="object-cover brightness-50 rounded-lg" src="../assets/img/bg/bg-1.jpg" alt="">
-                            <h1 class="absolute text-4xl font-semibold uppercase text-center text-white self-end mb-5"
-                                v-text="item.nama"></h1>
-                        </div>
-                    </div>
+  <div class="min-h-screen flex items-center py-20 w-full justify-center">
+    <TabsWrapper class="container" :tabTitles="eventTitles">
+      <Tab v-for="event in events" :key="event.id" :title="event.name">
+        <div class="w-full flex">
+          <div class="flex gap-5 p-3 overflow-x-scroll container">
+            <div @click="openModal(competition)" class="bg-gold-900 h-96 min-w-[20rem] rounded-xl group" v-for="competition in event.competitions" :key="competition.id">
+              <div class="h-1/2 p-5 uppercase flex flex-row-reverse">
+                <!-- <img class="w-16 h-auto" :src="competition.imgUrl" alt="" /> -->
+              </div>
+              <div class="h-1/2 p-5 uppercase flex text-3xl font-bold flex-col-reverse">
+                <div class="w-3/4 overflow-hidden">
+                  <h3>{{ competition.title }}</h3>
+                  <div class="bg-blue-900 h-2 w-full mt-3 -translate-x-full duration-300 group-hover:translate-x-0"></div>
                 </div>
-            </Tab>
-            <Tab title="D'action">
-                <div class="px-10">
-                    <div class="grid grid-cols-3 gap-28 w-full h-full">
-                        <div v-for="item in extCompetition" :key="item.nama"
-                            class="relative h-96 rounded-lg bg-gray-900 pb-2 flex justify-center overflow-hidden">
-                            <img class="object-cover brightness-50 rounded-lg" src="../assets/img/bg/bg-1.jpg" alt="">
-                            <h1 class="absolute text-4xl font-semibold uppercase text-center text-white self-end mb-5"
-                                v-text="item.nama"></h1>
-                        </div>
-                    </div>
-                </div>
-            </Tab>
-        </TabsWrapper>
-    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Tab>
+    </TabsWrapper>
+  </div>
 </template>
 
 <script setup>
 import TabsWrapper from "./TabsWrapper.vue";
 import Tab from "./Tab.vue";
-import { ref } from "vue";
+import { useModalStore } from "@/stores/modal.js";
 
-const intCompetition = ref([
-    {
-        nama: "Art Expression"
-    },
-    {
-        nama: "Stand Up Comedy"
-    },
-    {
-        nama: "Water Color Punch"
-    },
-])
-
-const extCompetition = ref([
-    {
-        nama: "Gartic io"
-    },
-    {
-        nama: "Debate"
-    },
-    {
-        nama: "WSIB"
-    },
-])
-
-
+const { events, eventTitles, openModal, modal, modalData } = useModalStore();
 </script>

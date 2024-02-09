@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <div class="py-20">
         <TabsWrapperTl>
             <Tab title="Day 1">
@@ -162,3 +163,9 @@ import TabsWrapperTl from "./TabsWrapperTl.vue";
 import Tab from "./Tab.vue";
 
 </script>
+=======
+  <div class="w-full justify-center flex min-h-screen items-center">
+    <div class="container">ini schedule</div>
+  </div>
+</template>
+>>>>>>> 25262195084ca5ff833b22f87d680167ccb80197

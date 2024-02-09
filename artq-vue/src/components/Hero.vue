@@ -31,7 +31,7 @@ const scrollDown = () => {
 </script>
 
 <template>
-  <div class="w-screen relative h-screen flex flex-col justify-center items-center">
+  <div class="w-full relative h-screen flex flex-col justify-center items-center">
     <div class="uppercase font-black flex flex-col justify-center items-center">
       <h1 class="text-8xl">Artqtion</h1>
 
