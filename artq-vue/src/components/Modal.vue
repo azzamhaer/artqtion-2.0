@@ -1,6 +1,6 @@
 <template>
   <div @click="modal.modalState = false" :class="{ 'translate-x-full duration-700': !modal.modalState, 'translate-x-0 duration-700': modal.modalState }" class="fixed w-screen duration-100 h-screen top-0 left-0 bg-black bg-opacity-50 z-50">
-    <div @click.stop :class="{ 'translate-x-full duration-300 ': !modal.modalState, 'translate-x-0 duration-1000': modal.modalState }" class="w-3/5 lg:w-1/2 h-screen bg-slate-100 absolute top-0 right-0">
+    <div @click.stop :class="{ 'translate-x-full duration-300 ': !modal.modalState, 'translate-x-0 duration-1000': modal.modalState }" class="w-4/5 lg:w-1/2 h-screen bg-slate-100 absolute top-0 right-0">
       <div @click="modal.modalState = false" class="absolute top-5 left-5 w-10 opacity-80 h-auto">
         <CloseBtn />
       </div>
