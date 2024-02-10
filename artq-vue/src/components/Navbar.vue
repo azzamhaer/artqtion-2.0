@@ -1,7 +1,7 @@
 <template>
   <div class="flex max-lg:flex-col bg-black bg-opacity-10 p-3 w-screen fixed top-0 left-0 text-white z-50">
     <div class="max-lg:flex max-lg:grow max-lg:flex-row max-lg:justify-between">
-      <img src="../assets/img/dh_bner_kn_bro.png" class="w-12" alt="" />
+      <img src="../assets/img/dh_bner_kn_bro.png" class="w-12 scale-120" alt="" />
       <div @click="navState = !navState" class="lg:hidden block p-2">
         <BurgerIcon class="w-10" />
       </div>
