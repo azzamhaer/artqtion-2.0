@@ -1,4 +1,17 @@
 <template>
+<<<<<<< HEAD
+    <div class="relative w-full flex flex-col justify-center items-center">
+        <ul class="flex mb-2 lg:mb-3">
+            <li class="text-xl lg:text-4xl font-semibold cursor-pointer uppercase mx-4 lg:mx-20" v-for="title in tabTitles"
+                :key="title" @click="selectedTitle = title">
+                {{ title }}
+            </li>
+        </ul>
+        <div :class="{ 'w-[4.5rem] lg:w-32 -translate-x-24 lg:-translate-x-[17rem]': selectedTitle === tabTitles[0], 'w-[4.5rem] lg:w-32 -translate-x-2.5 lg:-translate-x-4': selectedTitle === tabTitles[1], 'w-20 lg:w-36 translate-x-[5.25rem] lg:translate-x-64': selectedTitle === tabTitles[2] }"
+            class="duration-300 text-slate-300 h-0.5 bg-gold-500 mb-12"></div>
+        <slot></slot>
+    </div>
+=======
   <div class="relative w-full">
     <ul class="flex justify-center text-center mb-10 gap-10">
       <li class="text-xl text-center lg:text-4xl font-semibold cursor-pointer uppercase" v-for="tabTitle in tabTitles" :key="tabTitle" :class="{ selected: tabTitle === selectedTitle }" @click="selectedTitle = tabTitle">
@@ -15,6 +28,7 @@
     ></div>
     <slot></slot>
   </div>
+>>>>>>> dc5f11272cc71fc11893421f9048d55f69568669
 </template>
 
 <script>
