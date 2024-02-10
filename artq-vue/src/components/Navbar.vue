@@ -1,6 +1,6 @@
 <template>
-  <div class="flex max-lg:flex-col bg-black bg-opacity-10 p-3 w-full fixed top-0 left-0 text-white z-50">
-    <div class="max-lg:flex max-lg:w-full max-lg:flex-row max-lg:justify-between">
+  <div class="flex max-lg:flex-col bg-black bg-opacity-10 p-3 w-screen fixed top-0 left-0 text-white z-50">
+    <div class="max-lg:flex max-lg:grow max-lg:flex-row max-lg:justify-between">
       <img src="../assets/img/dh_bner_kn_bro.png" class="w-12" alt="" />
       <div @click="navState = !navState" class="lg:hidden block p-2">
         <BurgerIcon class="w-10" />
@@ -24,9 +24,9 @@
           class="duration-300 h-8 w-1 lg:w-28 max-lg:top-4 nav-line lg:h-1 absolute lg:-bottom-3 bg-gold-500 left-0"
         ></div>
         <RouterLink class="nav-link" to="/">Home</RouterLink>
-        <RouterLink class="nav-link w-28" to="/about">About</RouterLink>
         <RouterLink class="nav-link" to="/competition">Competition</RouterLink>
         <RouterLink class="nav-link" to="/schedule">Schedule</RouterLink>
+        <RouterLink class="nav-link w-28" to="/about">About</RouterLink>
       </div>
     </div>
   </div>
