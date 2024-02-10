@@ -1,12 +1,12 @@
 <template>
-    <div class="py-20">
+    <div class="py-20 w-full">
         <TabsWrapperTl>
             <Tab title="Day 1">
                 <div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-                            <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
+                            <h2 class="text-right mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase"></h2>
                         </div>
                         <div class="relative bg-gold-500">
                             <div
@@ -14,13 +14,13 @@
                             </div>
                         </div>
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-                            <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Gladi Kotor</h2>
+                            <h2 class="mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Gladi Kotor</h2>
                         </div>
                     </div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-                            <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Gladi Resik</h2>
+                            <h2 class="text-right mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Gladi Resik</h2>
                         </div>
                         <div class="relative bg-gold-500">
                             <div
@@ -28,13 +28,13 @@
                             </div>
                         </div>
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-                            <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
+                            <h2 class="mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase"></h2>
                         </div>
                     </div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-                            <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
+                            <h2 class="text-right mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase"></h2>
                         </div>
                         <div class="relative bg-gold-500">
                             <div
@@ -42,17 +42,17 @@
                             </div>
                         </div>
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-                            <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Grand Opening</h2>
+                            <h2 class="mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Grand Opening</h2>
                         </div>
                     </div>
                 </div>
             </Tab>
             <Tab title="Day 2">
                 <div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-                            <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
+                            <h2 class="text-right mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase"></h2>
                         </div>
                         <div class="relative bg-gold-500">
                             <div
@@ -60,13 +60,13 @@
                             </div>
                         </div>
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-                            <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Penyam<br>butan</h2>
+                            <h2 class="mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Penyambutan</h2>
                         </div>
                     </div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-                            <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Kanvas Sejarah</h2>
+                            <h2 class="text-right mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Kanvas Sejarah</h2>
                         </div>
                         <div class="relative bg-gold-500">
                             <div
@@ -74,13 +74,13 @@
                             </div>
                         </div>
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-                            <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
+                            <h2 class="mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase"></h2>
                         </div>
                     </div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-                            <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
+                            <h2 class="text-right mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase"></h2>
                         </div>
                         <div class="relative bg-gold-500">
                             <div
@@ -88,13 +88,13 @@
                             </div>
                         </div>
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-                            <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Debate</h2>
+                            <h2 class="mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Debate</h2>
                         </div>
                     </div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-                            <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Penutupan</h2>
+                            <h2 class="text-right mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Penutupan</h2>
                         </div>
                         <div class="relative bg-gold-500">
                             <div
@@ -102,14 +102,14 @@
                             </div>
                         </div>
                         <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-                            <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
+                            <h2 class="mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase"></h2>
                         </div>
                     </div>
                 </div>
             </Tab>
             <Tab title="Online">
                 <div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="lg:mx-5 mb-5 block p-[1.5em] text-white mt-[5.5rem] mr-5">
                             <h2 class="text-right text-[8px] lg:text-xs font-bold uppercase">10 - 17 Februari 2024</h2>
@@ -120,13 +120,13 @@
                             </div>
                         </div>
                         <div class="lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-                            <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Pendaf<br>taran</h2>
+                            <h2 class="mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Pendaftaran</h2>
                         </div>
                     </div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-                            <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Pengum<br>pulan
+                            <h2 class="text-right mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Pengumpulan
                                 akhir
                             </h2>
                         </div>
@@ -139,7 +139,7 @@
                             <h2 class="text-[8px] lg:text-xs font-bold uppercase">24 Februari 2024</h2>
                         </div>
                     </div>
-                    <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
+                    <div class="max-w-full h-80 lg:px-[25px] grid grid-cols-[1fr_1px_1fr]">
                         <!-- Timeline Component-->
                         <div class="lg:mx-5 block p-[1.5em] text-white mt-[5.5rem] mr-5">
                             <h2 class="text-right text-[8px] lg:text-xs font-bold uppercase">1 maret 2024</h2>
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                         <div class="lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-                            <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Grand Closing</h2>
+                            <h2 class="mb-[10px] text-xs lg:text-[1.2em] font-bold uppercase">Grand Closing</h2>
                         </div>
                     </div>
                 </div>
