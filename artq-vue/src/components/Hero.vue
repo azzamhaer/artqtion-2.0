@@ -32,7 +32,7 @@ const scrollDown = () => {
 
 <template>
   <div class="w-full relative h-screen flex flex-col justify-center items-center">
-    <div class="uppercase font-black flex flex-col justify-center items-center">
+    <div class="uppercase font-black flex flex-col justify-center items-center font-default">
       <h1 class="lg:text-8xl text-7xl">Artqtion</h1>
 
       <h1 class="lg:text-[5.3rem] text-[4rem]">Three.Zero</h1>
