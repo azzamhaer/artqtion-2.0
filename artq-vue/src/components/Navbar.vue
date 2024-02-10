@@ -24,9 +24,9 @@
           class="duration-300 w-28 nav-line h-1 absolute -bottom-3 bg-gold-500 left-0"
         ></div>
         <RouterLink class="nav-link" to="/">Home</RouterLink>
-        <RouterLink class="nav-link w-28" to="/about">About</RouterLink>
         <RouterLink class="nav-link" to="/competition">Competition</RouterLink>
         <RouterLink class="nav-link" to="/schedule">Schedule</RouterLink>
+        <RouterLink class="nav-link w-28" to="/about">About</RouterLink>
       </div>
     </div>
   </div>
