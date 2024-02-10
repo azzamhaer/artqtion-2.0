@@ -24,7 +24,7 @@ updateCountdown();
 
 const scrollDown = () => {
   window.scroll({
-    top: document.body.scrollTop + window.innerHeight,
+    top: document.body.scrollHeight,
     behavior: "smooth",
   });
 };
@@ -32,26 +32,26 @@ const scrollDown = () => {
 
 <template>
   <div class="w-full relative h-screen flex flex-col justify-center items-center">
-    <div class="uppercase font-black flex flex-col justify-center items-center font-default">
-      <h1 class="lg:text-8xl text-7xl">Artqtion</h1>
+    <div class="uppercase font-black flex flex-col justify-center items-center">
+      <h1 class="text-8xl">Artqtion</h1>
 
-      <h1 class="lg:text-[5.3rem] text-[4rem]">Three.Zero</h1>
+      <h1 class="text-[5.3rem]">Three.Zero</h1>
     </div>
-    <div class="py-8 px-20 rounded-[3rem] bg-gold-500 gap-y-1 gap-x-2 shadow-gold-400 shadow-lg bg-opacity-65 grid grid-cols-3 lg:grid-cols-7 text-center justify-center items-center my-5">
+    <div class="py-8 px-20 rounded-[3rem] bg-gold-500 gap-y-1 gap-x-2 shadow-gold-400 shadow-lg bg-opacity-65 grid grid-cols-7 text-center justify-center items-center my-5">
       <h2 class="font-bold text-6xl">{{ days }}</h2>
       <h2 class="font-bold text-6xl">:</h2>
       <h2 class="font-bold text-6xl">{{ hours }}</h2>
-      <h2 class="font-bold text-6xl max-lg:hidden">:</h2>
-      <h2 class="font-bold text-6xl max-lg:hidden">{{ minutes }}</h2>
-      <h2 class="font-bold text-6xl max-lg:hidden">:</h2>
-      <h2 class="font-bold text-6xl max-lg:hidden">{{ seconds }}</h2>
+      <h2 class="font-bold text-6xl">:</h2>
+      <h2 class="font-bold text-6xl">{{ minutes }}</h2>
+      <h2 class="font-bold text-6xl">:</h2>
+      <h2 class="font-bold text-6xl">{{ seconds }}</h2>
       <h3 class="font-semibold text-lg">Days</h3>
       <span></span>
       <h3 class="font-semibold text-lg">Hours</h3>
-      <span class="max-lg:hidden"></span>
-      <h3 class="font-semibold text-lg max-lg:hidden">Minutes</h3>
-      <span class="max-lg:hidden"></span>
-      <h3 class="font-semibold text-lg max-lg:hidden">Seconds</h3>
+      <span></span>
+      <h3 class="font-semibold text-lg">Minutes</h3>
+      <span></span>
+      <h3 class="font-semibold text-lg">Seconds</h3>
       <div class="w-full"></div>
     </div>
     <Arrow class="animate-bounce absolute bottom-0 w-28 -translate-y-20" @click="scrollDown" />
