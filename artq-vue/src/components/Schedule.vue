@@ -1,134 +1,25 @@
 <template>
   <div class="py-20">
-    <TabsWrapperTl>
-      <Tab title="Day 1">
-        <div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-              <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-              <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Gladi Kotor</h2>
-            </div>
-          </div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-              <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Gladi Resik</h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-              <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
-            </div>
-          </div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-              <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-              <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Grand Opening</h2>
-            </div>
-          </div>
-        </div>
-      </Tab>
-      <Tab title="Day 2">
-        <div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-              <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-              <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Penyam<br />butan</h2>
-            </div>
-          </div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-              <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Kanvas Sejarah</h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-              <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
-            </div>
-          </div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-              <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-              <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Debate</h2>
-            </div>
-          </div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-              <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Penutupan</h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="mt-0 lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-              <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase"></h2>
-            </div>
-          </div>
-        </div>
-      </Tab>
-      <Tab title="Online">
-        <div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="lg:mx-5 mb-5 block p-[1.5em] text-white mt-[5.5rem] mr-5">
-              <h2 class="text-right text-[8px] lg:text-xs font-bold uppercase">10 - 17 Februari 2024</h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-              <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Pendaf<br />taran</h2>
-            </div>
-          </div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:mr-5">
-              <h2 class="text-right mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Pengum<br />pulan akhir</h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="lg:mx-5 mb-5 block p-[1.5em] text-white mt-[5.5rem] lg:-mr-5">
-              <h2 class="text-[8px] lg:text-xs font-bold uppercase">24 Februari 2024</h2>
-            </div>
-          </div>
-          <div class="max-w-full h-80 px-[25px] grid grid-cols-[1fr_1px_1fr]">
-            <!-- Timeline Component-->
-            <div class="lg:mx-5 block p-[1.5em] text-white mt-[5.5rem] mr-5">
-              <h2 class="text-right text-[8px] lg:text-xs font-bold uppercase">1 maret 2024</h2>
-            </div>
-            <div class="relative bg-gold-500">
-              <div class="absolute top-28 left-1/2 -translate-x-1/2 w-[15px] h-[15px] bg-gold-500 rounded-[50%]"></div>
-            </div>
-            <div class="lg:mx-5 mb-5 block p-[1.5em] text-gold-500 mt-20 lg:-mr-5">
-              <h2 class="mb-[10px] text-sm lg:text-[1.2em] font-bold uppercase">Grand Closing</h2>
+    <TabsWrapperTl :tabTitles="modal.daysTitles">
+      <Tab :title="day.title" v-for="day in modal.days" :key="day.id">
+        <div class="w-full flex justify-center" :style="`height: ${day.schedules.length * 20}rem`">
+          <div class="w-1 h-full bg-gold-700 rounded-full flex flex-col justify-around items-center">
+            <div v-for="(schedule, index) in day.schedules" :key="schedule.id" class="w-4 h-4 bg-gold-900 capitalize border-white border rounded-full relative">
+              <div class="w-3 h-3 bg-gold-900 border-white border rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+              <div :class="{ 'right-0 translate-x-[110%]': schedule.id % 2 === 0, 'left-0 -translate-x-[110%]': schedule.id % 2 !== 0 }" class="lg:p-6 p-4 absolute top-0 -translate-y-1/2 bg-blue-900 rounded-2xl">
+                <p class="text-xl md:text-3xl lg:text-4xl font-semibold text-gold w-full flex">
+                  {{ schedule.acara }}
+                </p>
+              </div>
+              <div
+                v-if="schedule.tanggal"
+                :class="{ 'right-0 translate-x-[110%]': schedule.id % 2 !== 0, 'left-0 -translate-x-[110%]': schedule.id % 2 === 0 }"
+                class="lg:p-6 font-semibold p-3 absolute top-0 -translate-y-1/2 text-white rounded-2xl"
+              >
+                <p class="text-xl lg:text-2xl font-medium">
+                  {{ schedule.tanggal }}
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -136,8 +27,10 @@
     </TabsWrapperTl>
   </div>
 </template>
-
 <script setup>
 import TabsWrapperTl from "./TabsWrapperTl.vue";
 import Tab from "./Tab.vue";
+import { ref } from "vue";
+import { useModalStore } from "@/stores/modal.js";
+const modal = useModalStore();
 </script>

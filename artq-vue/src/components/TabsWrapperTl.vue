@@ -1,35 +1,25 @@
 <template>
-  <div class="relative w-full">
-    <ul class="flex justify-center text-center mb-10 gap-10">
-      <li class="text-xl text-center lg:text-4xl font-semibold cursor-pointer uppercase" v-for="tabTitle in tabTitles" :key="tabTitle" :class="{ selected: tabTitle === selectedTitle }" @click="selectedTitle = tabTitle">
+  <div class="relative w-full flex flex-col gap-5">
+    <div class="grid gap-y-4 text-center relative" :class="`grid-cols-${tabTitles.length}`">
+      <span v-for="(tabTitle, index) in tabTitles" :key="tabTitle" :class="{ selected: tabTitle === selectedTitle }" @click="selectedTitle = tabTitle" class="text-2xl px-3 text-center lg:text-4xl font-semibold cursor-pointer uppercase">
         {{ tabTitle }}
-      </li>
-    </ul>
-    <div
-      :class="{
-        'w-20 lg:w-32 translate-x-[55%]  lg:translate-x-[12.5%]': selectedTitle === tabTitles[0],
-        'w-20 lg:w-32 translate-x-[177.5%] lg:translate-x-[155.25%]': selectedTitle === tabTitles[1],
-        'w-20 lg:w-36 translate-x-[298%] lg:translate-x-[215%] ': selectedTitle === tabTitles[2],
-      }"
-      class="duration-300 left-0 text-slate-300 h-0.5 absolute top-12 bg-gold-500"
-    ></div>
+      </span>
+      <div :style="{ transform: `translateX(${tabTitles.indexOf(selectedTitle)}00%)` }" class="duration-300 left-0 text-slate-300 h-0.5 absolute w-1/3 -bottom-2 bg-gold-500"></div>
+    </div>
     <slot></slot>
   </div>
 </template>
 
 <script>
 import { ref, provide } from "vue";
-
 export default {
-  setup(props, { slots }) {
-    const tabTitles = ref(slots.default().map((tab) => tab.props.title));
-    const selectedTitle = ref(tabTitles.value[0]);
+  props: ["tabTitles"],
+  setup(props) {
+    const selectedTitle = ref(props.tabTitles[0]);
 
     provide("selectedTitle", selectedTitle);
-
     return {
       selectedTitle,
-      tabTitles,
     };
   },
 };

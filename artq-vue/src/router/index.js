@@ -27,6 +27,16 @@ const router = createRouter({
       name: "schedule",
       component: () => import("../views/ScheduleView.vue"),
     },
+    {
+      path: "/register",
+      name: "register",
+      component: () => import("../views/Register.vue"),
+    },
+    {
+      path: "/offlineregister",
+      name: "offlineregister",
+      component: () => import("../views/OfflineRegister.vue"),
+    },
   ],
 });
 

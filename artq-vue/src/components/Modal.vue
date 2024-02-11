@@ -8,15 +8,15 @@
         <div class="w-full h-full justify-center grow flex flex-col gap-5">
           <div class="w-full justify-center flex flex-col grow gap-5">
             <div class="flex items-center justify-between">
-              <h1 class="text-4xl font-bold">{{ modal.modalData.title }}</h1>
-              <img :src="modal.modalData.imgUrl" alt="" />
+              <h1 class="lg:text-4xl text-2xl font-bold">{{ modal.modalData.title }}</h1>
+              <img class="lg:w-20 w-16" :src="modal.modalData.imgUrl" alt="" />
             </div>
             <div>
-              <p class="text-xl">{{ modal.modalData.description }}</p>
+              <p class="lg:text-xl">{{ modal.modalData.description }}</p>
             </div>
           </div>
           <div class="w-full text-white">
-            <a class="p-4 bg-green-500 text-xl rounded-xl w-full flex justify-between items-center" :href="modal.modalData.btnLink">{{ modal.modalData.btnTitle }} <ArrowRight class="w-7" /></a>
+            <RouterLink class="p-4 bg-green-500 text-xl rounded-xl w-full flex justify-between items-center" :to="modal.modalData.btnLink">{{ modal.modalData.btnTitle }} <ArrowRight class="w-7" /></RouterLink>
           </div>
         </div>
       </div>
