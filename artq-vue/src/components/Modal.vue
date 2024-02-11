@@ -16,7 +16,9 @@
             </div>
           </div>
           <div class="w-full text-white">
-            <RouterLink class="p-4 bg-green-500 text-xl rounded-xl w-full flex justify-between items-center" :to="modal.modalData.btnLink">{{ modal.modalData.btnTitle }} <ArrowRight class="w-7" /></RouterLink>
+            <RouterLink class="p-4 bg-gradient-to-tr from-green-500 to-green-300 text-xl rounded-xl w-full flex justify-between items-center" :to="modal.modalData.btnLink"
+              >{{ modal.modalData.btnTitle }} <ArrowRight class="w-7"
+            /></RouterLink>
           </div>
         </div>
       </div>

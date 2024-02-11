@@ -5,10 +5,13 @@
         {{ title }}
       </li>
     </ul>
-    <div :class="{
-      '-translate-x-[118%]': selectedTitle === tabTitles[0],
-      'translate-x-0 ': selectedTitle === tabTitles[1],
-    }" class="duration-300 text-slate-300 w-32 h-0.5 absolute top-12 right-7 bg-gold-500"></div>
+    <div
+      :class="{
+        '-translate-x-[118%]': selectedTitle === tabTitles[0],
+        'translate-x-0 ': selectedTitle === tabTitles[1],
+      }"
+      class="duration-300 text-slate-300 w-32 h-0.5 absolute top-12 right-7 bg-blue-500"
+    ></div>
     <slot></slot>
   </div>
 </template>
