@@ -35,9 +35,9 @@ updateCountdown();
           <p class="text-sm lg:text-lg mb-5 lg:mb-10">
             Art, Quranic, Technology, dan Competition atau ArtQTion adalah kegiatan tahunan yang di adakan oleh Santri Sekolah Impian sejak tahun 2022. <br />
             <br />
-            ArtQTion adalah acara edukasi yang bertemakan "Back to Golden Age of Islam to fight AI Disruption". Acara ini bertujuan untuk mengedukasi santri sekaligus siswa/siswi tentang bagaimana masyarakat menanggapi disrupsi AI dewasa
-            ini. Terkadang, perkembangan teknologi yang amat masif membuat masyarakat tertinggal dan tidak tahu untuk menanggapinya. Sehingga acara ini dihadirkan untuk membuka wawasan dan pemahaman bahwa AI dapat menjadi alat yang
-            bermanfaat dan positif dalam memajukan kehidupan manusia dan tentunya Umat Islam.
+            ArtQTion adalah acara edukasi yang bertemakan "The Beauty of Science and Technology, heritage of Islamic Civilization". Acara ini bertujuan untuk mengedukasi santri sekaligus siswa/siswi tentang bagaimana masyarakat menanggapi
+            disrupsi AI dewasa ini. Terkadang, perkembangan teknologi yang amat masif membuat masyarakat tertinggal dan tidak tahu untuk menanggapinya. Sehingga acara ini dihadirkan untuk membuka wawasan dan pemahaman bahwa AI dapat menjadi
+            alat yang bermanfaat dan positif dalam memajukan kehidupan manusia dan tentunya Umat Islam.
             <br /><br />
             Melalui pendekatan inovatif, ArtQTion mengajak para peserta untuk berpikir kreatif dan mengembangkan visi yang jauh ke depan tentang teknologi dalam Islam. Dalam acara ini, akan disiapkan kompetisi-kompetisi menarik untuk
             memberikan inspirasi dan pencerahan kepada para peserta.
