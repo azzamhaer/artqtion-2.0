@@ -37,7 +37,7 @@ const scrollDown = () => {
 
       <h1 class="lg:text-[5.3rem] text-[4rem]">Three.Zero</h1>
     </div>
-    <div class="py-8 px-20 rounded-[3rem] bg-gradient-to-tr from-blue-800 to-blue-400 gap-y-1 font-semibold gap-x-2 shadow-blue-400 shadow-lg bg-opacity-65 grid grid-cols-3 lg:grid-cols-7 text-center justify-center items-center my-5">
+    <div class="py-8 px-20 rounded-[3rem] bg-gradient-to-tr from-gold-800 to-gold-400 gap-y-1 font-semibold gap-x-2 shadow-gold-400 shadow-lg bg-opacity-65 grid grid-cols-3 lg:grid-cols-7 text-center justify-center items-center my-5">
       <h2 class="text-6xl">{{ days }}</h2>
       <h2 class="text-6xl">:</h2>
       <h2 class="text-6xl">{{ hours }}</h2>

@@ -21,7 +21,7 @@
             'lg:translate-x-[200%] max-lg:translate-y-[250%]': $route.path === '/schedule',
             'lg:translate-x-[300%] max-lg:translate-y-[375%]': $route.path === '/about',
           }"
-          class="duration-300 h-8 w-1 lg:w-28 max-lg:top-4 nav-line lg:h-1 absolute lg:-bottom-3 bg-blue-500 left-0"
+          class="duration-300 h-8 w-1 lg:w-28 max-lg:top-4 nav-line lg:h-1 absolute lg:-bottom-3 bg-gold-500 left-0"
         ></div>
         <RouterLink class="nav-link" to="/">Home</RouterLink>
         <RouterLink class="nav-link" to="/competition">Competition</RouterLink>
