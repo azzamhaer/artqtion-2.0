@@ -50,12 +50,12 @@ export const useModalStore = defineStore("modal", () => {
         {
           id: 8,
           acara: "Pendaftaran",
-          tanggal: "10 - 17 Februari 2024",
+          tanggal: "10 - 18 Februari 2024",
         },
         {
           id: 9,
           acara: "Pengumpulan Akhir",
-          tanggal: "24 Februari 2024",
+          tanggal: "26 Februari 2024",
         },
         {
           id: 10,
@@ -112,7 +112,7 @@ export const useModalStore = defineStore("modal", () => {
           imgUrl: "http://cdn.artqtion.com/monolog.png",
           btnLink: "/register",
           description:
-            "Lomba Monolog merupakan sebuah kompetisi yang bertujuan agar para peserta dapat mengembangkan potensi secara literal maupun kemampuan dalam berperan. Lomba ini juga dapat menjadi media bagi peserta untuk memberikan perspektif unik yang sesuai dengan tema yang telah di tentukan. Melalui monolog , para peserta dilatih untuk menghadapi ",
+            "Lomba Solo Showcase merupakan sebuah kompetisi yang bertujuan agar para peserta dapat mengembangkan potensi secara literal maupun kemampuan dalam berperan. Lomba ini juga dapat menjadi media bagi peserta untuk memberikan perspektif unik yang sesuai dengan tema yang telah di tentukan. Melalui Solo Showcase , para peserta dilatih untuk menghadapi ",
           btnTitle: "Register Here",
         },
         {
@@ -121,7 +121,7 @@ export const useModalStore = defineStore("modal", () => {
           imgUrl: "http://cdn.artqtion.com/tadabbur.png",
           btnLink: "/register",
           description:
-            "Lomba tadabbur merupakan lomba dengan konsep video singkat yang didalamnya terkandung ayat Al-quran yang dikupas menjadi se-demikian menarik bagi banyak kalangan. Diharapkan melalui lomba tadabbur masyarakat dapat mendapatkan banyak wawasan yang bermanfaat tentang ayat-ayat Al-Quran.",
+            "Lomba Thematic Tafakkur merupakan lomba dengan konsep video singkat yang didalamnya terkandung ayat Al-quran yang dikupas menjadi se-demikian menarik bagi banyak kalangan. Diharapkan melalui lomba Thematic Tafakkur masyarakat dapat mendapatkan banyak wawasan yang bermanfaat tentang ayat-ayat Al-Quran.",
           btnTitle: "Register Here",
         },
       ],
