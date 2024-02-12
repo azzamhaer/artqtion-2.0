@@ -3,7 +3,7 @@
     <TabsWrapper class="container" :tabTitles="eventTitles">
       <Tab v-for="event in events" :key="event.id" :title="event.name">
         <div class="w-full flex">
-          <div class="flex gap-5 p-3 overflow-x-scroll container">
+          <div class="flex gap-5 p-3 overflow-x-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-300 container">
             <div
               @click="openModal(competition)"
               :class="event.id === 2 ? 'min-w-[49%]' : 'min-w-[20rem]'"
