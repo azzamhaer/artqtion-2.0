@@ -26,7 +26,7 @@ updateCountdown();
   <div class="py-20 px-5 lg:px-10 min-h-screen flex items-center justify-center">
     <div class="grid container grid-cols-1 lg:grid-cols-3">
       <div class="h-full">
-        <img class="h-full object-cover rounded-bl-[3.5rem] rounded-tr-[3.5rem] rounded-tl-xl rounded-br-xl" src="../assets/img/bg/bg-3.webp" alt="" />
+        <img class="h-full object-cover rounded-bl-[3.5rem] rounded-tr-[3.5rem] rounded-tl-xl rounded-br-xl" src="../assets/img/DSC08317.jpg" alt="" />
       </div>
       <div class="col-span-2 lg:ml-20 py-5">
         <div>
