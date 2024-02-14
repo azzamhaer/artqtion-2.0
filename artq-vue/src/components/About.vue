@@ -57,7 +57,7 @@ updateCountdown();
           </div>
           <div class="duration-300 text-slate-300 w-px mx-5 bg-blue-500"></div>
           <div class="h-12 lg:h-28 mx-3 lg:mx-5 scale-150">
-            <img class="h-full object-cover" src="../assets/img/dh_bner_kn_bro.png " alt="" />
+            <img class="h-full object-cover" src="../assets/img/ArtqLogoo.png" alt="" />
           </div>
         </div>
       </div>

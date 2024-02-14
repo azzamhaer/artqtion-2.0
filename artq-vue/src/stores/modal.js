@@ -99,7 +99,7 @@ export const useModalStore = defineStore("modal", () => {
         },
         {
           id: 4,
-          title: "GamJam",
+          title: "GameJam",
           imgUrl: "http://cdn.artqtion.com/gamjam.png",
           btnLink: "/register",
           description:
