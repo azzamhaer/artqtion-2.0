@@ -6,8 +6,8 @@
           <div class="flex gap-5 p-3 overflow-x-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-300 container">
             <div
               @click="openModal(competition)"
-              :class="event.id === 2 ? 'min-w-[49%]' : 'min-w-[20rem]'"
-              class="bg-gradient-to-bl from-blue-500 to-blue-900 h-96 rounded-xl cursor-pointer group"
+              :class="event.id === 2 ? 'lg:min-w-[49%]' : ''"
+              class="bg-gradient-to-bl from-blue-500 min-w-[20rem] to-blue-900 h-96 rounded-xl cursor-pointer group"
               v-for="competition in event.competitions"
               :key="competition.id"
             >
