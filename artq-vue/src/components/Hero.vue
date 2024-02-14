@@ -33,9 +33,9 @@ const scrollDown = () => {
 <template>
   <div class="w-full relative h-screen flex flex-col justify-center items-center">
     <div class="uppercase font-black flex flex-col justify-center items-center font-default">
-      <h1 class="lg:text-8xl text-7xl">Artqtion</h1>
+      <h1 class="lg:text-8xl text-6xl">Artqtion</h1>
 
-      <h1 class="lg:text-[5.3rem] text-[4rem]">Three.Zero</h1>
+      <h1 class="lg:text-[5.3rem] text-[3.25rem]">Three.Zero</h1>
     </div>
     <div class="py-8 px-20 rounded-[3rem] bg-gradient-to-tr from-blue-800 to-blue-400 gap-y-1 font-semibold gap-x-2 shadow-blue-400 shadow-lg bg-opacity-65 grid grid-cols-3 lg:grid-cols-7 text-center justify-center items-center my-5">
       <h2 class="text-6xl">{{ days }}</h2>
