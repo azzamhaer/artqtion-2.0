@@ -37,6 +37,11 @@ const router = createRouter({
       name: "offlineregister",
       component: () => import("../views/OfflineRegister.vue"),
     },
+    {
+      path: "/terms",
+      name: "terms",
+      component: () => import("../views/TermsView.vue"),
+    },
   ],
 });
 

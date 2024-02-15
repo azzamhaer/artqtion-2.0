@@ -32,24 +32,26 @@ const scrollDown = () => {
 
 <template>
   <div class="w-full relative h-screen flex flex-col justify-center items-center">
-    <div class="uppercase font-black flex flex-col justify-center items-center font-default">
-      <h1 class="lg:text-8xl text-6xl">Artqtion</h1>
-
-      <h1 class="lg:text-[5.3rem] text-[3.25rem]">Three.Zero</h1>
+    <div class="uppercase max-w-4xl font-black flex flex-col justify-center items-center font-default">
+      <img src="../assets/img/heroArtq.png" alt="" />
+      <!-- <h1 class="lg:text-8xl text-6xl">Artqtion</h1>
+      <h1 class="lg:text-[5.3rem] text-[3.25rem]">Three.Zero</h1> -->
     </div>
-    <div class="py-8 px-20 rounded-[3rem] bg-gradient-to-tr from-blue-800 to-blue-400 gap-y-1 font-semibold gap-x-2 shadow-blue-400 shadow-lg bg-opacity-65 grid grid-cols-3 lg:grid-cols-7 text-center justify-center items-center my-5">
+    <div
+      class="py-8 px-20 rounded-[3rem] bg-gradient-to-tr from-blue-800 to-blue-600 gap-y-1 font-semibold gap-x-2 shadow-blue-600 shadow-lg bg-opacity-65 grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-7 text-center justify-center items-center my-5"
+    >
       <h2 class="text-6xl">{{ days }}</h2>
       <h2 class="text-6xl">:</h2>
       <h2 class="text-6xl">{{ hours }}</h2>
-      <h2 class="text-6xl max-lg:hidden">:</h2>
-      <h2 class="text-6xl max-lg:hidden">{{ minutes }}</h2>
+      <h2 class="text-6xl max-sm:hidden">:</h2>
+      <h2 class="text-6xl max-sm:hidden">{{ minutes }}</h2>
       <h2 class="text-6xl max-lg:hidden">:</h2>
       <h2 class="text-6xl max-lg:hidden">{{ seconds }}</h2>
       <h3 class="font-semibold text-lg">Days</h3>
       <span></span>
       <h3 class="font-semibold text-lg">Hours</h3>
-      <span class="max-lg:hidden"></span>
-      <h3 class="font-semibold text-lg max-lg:hidden">Minutes</h3>
+      <span class="max-sm:hidden"></span>
+      <h3 class="font-semibold text-lg max-sm:hidden">Minutes</h3>
       <span class="max-lg:hidden"></span>
       <h3 class="font-semibold text-lg max-lg:hidden">Seconds</h3>
       <div class="w-full"></div>
