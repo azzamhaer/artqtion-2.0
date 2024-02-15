@@ -50,7 +50,7 @@ export const useModalStore = defineStore("modal", () => {
         {
           id: 8,
           acara: "Pendaftaran",
-          tanggal: "10 - 18 Februari 2024",
+          tanggal: "15 - 18 Februari 2024",
         },
         {
           id: 9,
