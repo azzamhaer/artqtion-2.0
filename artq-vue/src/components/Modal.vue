@@ -13,7 +13,7 @@
             </div>
             <div class="flex flex-col gap-5">
               <div @click="openDropdown('desc')" class="flex flex-col border-b border-black pb-5">
-                <div class="text-xl flex justify-between"><span>Deskripsi</span> <Arrow class="w-7 duration-200" :class="{ '-rotate-90': dropdown != 'desc' }" /></div>
+                <div class="text-xl flex justify-between"><span>Deskripsi</span> <Arrow class="w-7 duration-300" :class="{ '-rotate-90': dropdown != 'desc' }" /></div>
                 <div
                   :class="{
                     'max-h-0 overflow-hidden': dropdown != 'desc',
@@ -25,7 +25,7 @@
                 </div>
               </div>
               <div @click="openDropdown('term')" class="flex flex-col border-b border-black pb-5">
-                <div class="text-xl flex justify-between"><span>Syarat & Ketentuan</span> <Arrow class="w-7 duration-200" :class="{ '-rotate-90': dropdown != 'term' }" /></div>
+                <div class="text-xl flex justify-between"><span>Syarat & Ketentuan</span> <Arrow class="w-7 duration-300" :class="{ '-rotate-90': dropdown != 'term' }" /></div>
                 <div
                   :class="{
                     'max-h-0 overflow-hidden': dropdown != 'term',
