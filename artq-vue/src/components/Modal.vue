@@ -11,7 +11,7 @@
               <h1 class="lg:text-4xl text-xl font-bold">{{ modal.modalData.title }}</h1>
               <img class="lg:w-20 w-16" :src="modal.modalData.imgUrl" alt="" />
             </div>
-            <div class="flex flex-col gap-5 overflow-y-scroll scrollbar-thin scrollbar-track-transparent">
+            <div class="flex flex-col gap-5">
               <div @click="openDropdown('desc')" class="flex flex-col border-b border-black pb-5">
                 <div class="text-xl flex justify-between"><span>Deskripsi</span> <Arrow class="w-7 duration-200" :class="{ '-rotate-90': dropdown != 'desc' }" /></div>
                 <div
@@ -31,7 +31,7 @@
                     'max-h-0 overflow-hidden': dropdown != 'term',
                     'max-h-[60vh] overflow-y-scroll mt-2': dropdown == 'term',
                   }"
-                  class="duration-300 flex flex-col gap-3 scrollbar-thin scrollbar-track-transparent"
+                  class="duration-300 flex flex-col gap-3 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-500"
                 >
                   <div class="ms-6" v-for="term in modal.modalData.terms">
                     <h3 class="text-lg font-semibold lg:text-2xl">{{ term.nama }}</h3>
