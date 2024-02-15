@@ -15,10 +15,11 @@
               <p class="text-sm lg:text-xl">{{ modal.modalData.description }}</p>
             </div>
           </div>
-          <div class="w-full text-white">
+          <div class="w-full flex flex-col gap-4 text-white">
             <RouterLink class="p-4 bg-gradient-to-tr from-green-500 to-green-300 lg:text-xl rounded-xl w-full flex justify-between items-center" :to="modal.modalData.btnLink"
               >{{ modal.modalData.btnTitle }} <ArrowRight class="w-7"
             /></RouterLink>
+            <RouterLink class="p-4 bg-gradient-to-tr from-blue-500 to-blue-300 lg:text-xl rounded-xl w-full flex justify-between items-center" :to="'/terms'">Syarat & Ketentuan <ArrowRight class="w-7" /></RouterLink>
           </div>
         </div>
       </div>
