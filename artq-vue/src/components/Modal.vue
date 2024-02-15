@@ -29,7 +29,7 @@
                 <div
                   :class="{
                     'max-h-0 overflow-hidden': dropdown != 'term',
-                    'max-h-[60vh] overflow-y-scroll mt-2': dropdown == 'term',
+                    'md:max-h-[60vh] max-h-[50vh] overflow-y-scroll mt-2': dropdown == 'term',
                   }"
                   class="duration-300 flex flex-col gap-3 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-500"
                 >
