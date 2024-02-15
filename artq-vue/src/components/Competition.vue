@@ -7,7 +7,7 @@
             <div
               @click="openModal(competition)"
               :class="event.id === 2 ? 'lg:min-w-[49%]' : ''"
-              class="bg-gradient-to-bl from-blue-500 min-w-[20rem] to-blue-900 h-96 rounded-xl cursor-pointer group"
+              class="bg-gradient-to-bl from-blue-500 to-80% from-20% min-w-[20rem] to-blue-900 h-96 rounded-xl cursor-pointer group"
               v-for="competition in event.competitions"
               :key="competition.id"
             >
