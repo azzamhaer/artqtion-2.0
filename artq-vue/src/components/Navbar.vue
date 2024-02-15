@@ -28,7 +28,7 @@
         <RouterLink class="nav-link" to="/competition">Competition</RouterLink>
         <RouterLink class="nav-link" to="/schedule">Schedule</RouterLink>
         <RouterLink class="nav-link" to="/about">About</RouterLink>
-        <RouterLink class="nav-link" to="/terms">Terms</RouterLink>
+        <!-- <RouterLink class="nav-link" to="/terms">Terms</RouterLink> -->
       </div>
     </div>
   </div>
