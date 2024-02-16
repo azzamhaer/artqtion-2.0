@@ -17,9 +17,9 @@
                 <div
                   :class="{
                     'max-h-0 overflow-hidden': dropdown != 'desc',
-                    'max-h-[60vh]  overflow-y-scroll mt-2': dropdown == 'desc',
+                    'md:max-h-[60vh] max-h-[50vh] overflow-y-scroll mt-2': dropdown == 'desc',
                   }"
-                  class="duration-500 ease-in-out"
+                  class="duration-500 ease-in-out scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-500"
                 >
                   <p class="text-sm lg:text-xl">{{ modal.modalData.description }}</p>
                 </div>
