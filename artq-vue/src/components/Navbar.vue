@@ -12,7 +12,7 @@
           'max-lg:p-5 max-lg:max-h-screen max-lg:mt-3': navState,
           'max-lg:p-0 max-lg:max-h-0 max-lg:mt-0': !navState,
         }"
-        class="max-lg:grid capitalize duration-200 lg:flex lg:gap-4 max-lg:overflow-hidden max-lg:gap-4 lg:grid-cols-5 max-lg:grid-rows-5 max-lg:bg-slate-900 max-lg:bg-opacity-55 rounded-xl max-lg:w-full lg:text-center items-center font-bold relative transition-height"
+        class="max-lg:grid capitalize duration-200 lg:flex lg:gap-4 max-lg:overflow-hidden max-lg:gap-4 lg:grid-cols-5 max-lg:grid-rows-4 max-lg:bg-slate-900 max-lg:bg-opacity-55 rounded-xl max-lg:w-full lg:text-center items-center font-bold relative transition-height"
       >
         <div
           :class="{
