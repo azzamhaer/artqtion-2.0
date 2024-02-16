@@ -1,6 +1,6 @@
 <template>
   <div class="relative w-full justify-center flex flex-col gap-12">
-    <div class="grid gap-y-4 py-4 w-3/5 self-center text-center relative mb-10" :class="`grid-cols-${tabTitles.length}`">
+    <div class="grid gap-y-4 py-4 lg:w-3/5 self-center text-center relative mb-3 lg:mb-10" :class="`grid-cols-${tabTitles.length}`">
       <span v-for="(tabTitle, index) in tabTitles" :key="tabTitle" :class="{ selected: tabTitle === selectedTitle }" @click="selectedTitle = tabTitle" class="text-2xl px-3 text-center lg:text-4xl font-semibold cursor-pointer uppercase">
         {{ tabTitle }}
       </span>
