@@ -31,7 +31,7 @@
                     'max-h-0 overflow-hidden': dropdown != 'term',
                     'md:max-h-[60vh] max-h-[50vh] overflow-y-scroll mt-2': dropdown == 'term',
                   }"
-                  class="duration-300 flex flex-col gap-3 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-500"
+                  class="duration-500 flex flex-col gap-3 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-500"
                 >
                   <div class="ms-6" v-for="term in modal.modalData.terms">
                     <h3 class="text-lg font-semibold lg:text-2xl">{{ term.nama }}</h3>
