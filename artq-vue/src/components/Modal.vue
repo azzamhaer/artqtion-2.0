@@ -39,7 +39,7 @@
                       <li class="text-sm md:text-base lg:text-lg capitalize" v-for="list in term.isi">
                         <p v-if="typeof list == 'string'">{{ list }}</p>
                         <div v-else>
-                          <h4 class="text-lg lg:text-2xl font-medium">{{ list.nama }}</h4>
+                          <h4 class="text-sm lg:text-xl font-medium">{{ list.nama }}</h4>
                           <ul class="list-decimal list-inside">
                             <li class="text-sm md:text-base lg:text-lg capitalize" v-for="subList in list.content">{{ subList }}</li>
                           </ul>
