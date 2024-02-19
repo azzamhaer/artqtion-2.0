@@ -50,17 +50,17 @@ export const useModalStore = defineStore("modal", () => {
         {
           id: 8,
           acara: "Pendaftaran",
-          tanggal: "15 - 18 Februari 2024",
+          tanggal: "15 - 22 Februari 2024",
         },
         {
           id: 9,
           acara: "Pengumpulan Akhir",
-          tanggal: "26 Februari 2024",
+          tanggal: "",
         },
         {
           id: 10,
           acara: "Grand Closing",
-          tanggal: "1 Maret 2024", // Corrected date
+          tanggal: "2 Maret 2024", // Corrected date
         },
       ],
     },
@@ -71,7 +71,7 @@ export const useModalStore = defineStore("modal", () => {
       name: "Online",
       competitions: [
         {
-          id: 1,
+          id: "LandingPage",
           title: "Web Landing Page",
           imgUrl: "http://cdn.artqtion.com/landing-page.png",
           btnLink: "/register",
@@ -99,7 +99,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: 2,
+          id: "NewsAnchor",
           title: "News Anchor",
           imgUrl: "http://cdn.artqtion.com/news-anchor.png",
           btnLink: "/register",
@@ -118,7 +118,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: 3,
+          id: "KomikAntologi",
           title: "Komik Antologi",
           imgUrl: "http://cdn.artqtion.com/komik-antalogi.png",
           btnLink: "/register",
@@ -147,7 +147,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: 4,
+          id: "GameJam",
           title: "GameJam",
           imgUrl: "http://cdn.artqtion.com/gamjam.png",
           btnLink: "/register",
@@ -186,7 +186,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: 5,
+          id: "SoloShowcase",
           title: "Solo Showcase",
           imgUrl: "http://cdn.artqtion.com/monolog.png",
           btnLink: "/register",
@@ -211,7 +211,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: 6,
+          id: "ThematicTafakkur",
           title: "Thematic Tafakkur",
           imgUrl: "http://cdn.artqtion.com/tadabbur.png",
           btnLink: "/register",
@@ -265,7 +265,7 @@ export const useModalStore = defineStore("modal", () => {
       name: "Offline",
       competitions: [
         {
-          id: 7,
+          id: "KanvasSejarah",
           title: "Kanvas Sejarah",
           imgUrl: "http://cdn.artqtion.com/kanvas-sejarah.png",
           btnLink: "/offlineregister",
@@ -302,7 +302,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: 8,
+          id: "Debat",
           title: "Debat",
           imgUrl: "http://cdn.artqtion.com/debate.png",
           btnLink: "/offlineregister",
