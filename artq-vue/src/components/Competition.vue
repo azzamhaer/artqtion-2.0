@@ -4,13 +4,7 @@
       <Tab v-for="event in events" :key="event.id" :title="event.name">
         <div class="w-full flex">
           <div class="flex gap-5 p-3 overflow-x-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-300 container">
-            <div
-              @click="openModal(competition)"
-              :class="event.id === 2 ? 'lg:min-w-[49%]' : ''"
-              class="bg-gradient-to-bl from-blue-700 to-85% from-20% min-w-[20rem] to-blue-900 h-96 rounded-xl cursor-pointer group"
-              v-for="competition in event.competitions"
-              :key="competition.id"
-            >
+            <div @click="openModal(competition)" :class="event.id === 2 ? 'lg:min-w-[49%]' : ''" class="bg-blue-800 min-w-[20rem] h-80 rounded-xl cursor-pointer group" v-for="competition in event.competitions" :key="competition.id">
               <div class="h-1/2 p-5 uppercase flex flex-row-reverse">
                 <img class="w-auto h-full" :src="competition.imgUrl" alt="" />
               </div>
