@@ -32,10 +32,12 @@ export const useModalStore = defineStore("modal", () => {
         {
           id: 5,
           acara: "Kanvas Sejarah",
+          imgUrl: "http://cdn.artqtion.com/kanvas-sejarah.png",
         },
         {
           id: 6,
           acara: "Debat",
+          imgUrl: "http://cdn.artqtion.com/debate.png",
         },
         {
           id: 7,
