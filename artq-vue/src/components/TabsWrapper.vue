@@ -10,7 +10,7 @@
             '-translate-x-full': selectedTitle === tabTitles[0],
             'translate-x-0 ': selectedTitle === tabTitles[1],
           }"
-          class="duration-300 text-slate-300 w-1/2 h-full absolute top-0 z-10 right-0 rounded-full border-8 border-slate-800 bg-blue-500"
+          class="duration-300 text-slate-300 w-1/2 h-full absolute top-0 z-10 right-0 rounded-full border-8 border-slate-800 bg-blue-700"
         ></div>
       </div>
     </div>

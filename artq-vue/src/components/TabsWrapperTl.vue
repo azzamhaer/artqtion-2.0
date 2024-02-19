@@ -10,7 +10,7 @@
       >
         {{ tabTitle }}
       </span>
-      <div :style="{ transform: `translateX(${tabTitles.indexOf(selectedTitle)}00%)` }" class="duration-300 border-8 border-slate-800 left-0 text-slate-300 h-full absolute w-1/3 top-0 rounded-full z-10 bg-blue-500"></div>
+      <div :style="{ transform: `translateX(${tabTitles.indexOf(selectedTitle)}00%)` }" class="duration-300 border-8 border-slate-800 left-0 text-slate-300 h-full absolute w-1/3 top-0 rounded-full z-10 bg-blue-800"></div>
     </div>
     <slot></slot>
   </div>

@@ -31,7 +31,7 @@ updateCountdown();
       <div class="col-span-2 lg:ml-20 py-5">
         <div>
           <h2 class="text-4xl lg:text-5xl uppercase font-semibold">About</h2>
-          <div class="duration-300 text-slate-300 w-36 lg:w-48 h-0.5 mt-3 mb-4 bg-blue-500"></div>
+          <div class="duration-300 text-slate-300 w-36 lg:w-48 h-0.5 mt-3 mb-4 bg-blue-700"></div>
           <p class="text-sm lg:text-lg mb-5 lg:mb-10">
             Art, Quranic, Technology, dan Competition atau ArtQTion adalah kegiatan tahunan yang di adakan oleh Santri Sekolah Impian sejak tahun 2022. <br />
             <br />
@@ -44,8 +44,8 @@ updateCountdown();
           </p>
         </div>
         <div class="w-auto lg:w-auto flex gap-5">
-          <button class="bg-gradient-to-r from-blue-400 to-blue-900 p-3 rounded-full"><a class="text-sm lg:text-lg font-semibold capitalize" href="https://www.youtube.com/@art-qtionofficial2273">our youtube</a></button>
-          <button class="bg-gradient-to-r from-blue-400 to-blue-900 p-3 rounded-full"><a class="text-sm lg:text-lg font-semibold capitalize" href="https://www.instagram.com/artqtion.official">our instagram</a></button>
+          <button class="bg-blue-800 p-3 rounded-full"><a class="text-sm lg:text-lg font-semibold capitalize" href="https://www.youtube.com/@art-qtionofficial2273">our youtube</a></button>
+          <button class="bg-blue-800 p-3 rounded-full"><a class="text-sm lg:text-lg font-semibold capitalize" href="https://www.instagram.com/artqtion.official">our instagram</a></button>
         </div>
         <div class="flex mt-8">
           <div class="h-12 lg:h-28 mx-3 lg:mx-5">
