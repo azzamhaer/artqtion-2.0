@@ -1,16 +1,10 @@
 <template>
-  <div class="flex items-center py-20 w-full justify-center">
+  <div class="flex flex-col items-center py-20 w-full justify-center">
     <TabsWrapper class="container" :tabTitles="eventTitles">
       <Tab v-for="event in events" :key="event.id" :title="event.name">
         <div class="w-full flex">
           <div class="flex gap-5 p-3 overflow-x-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-300 container">
-            <div
-              @click="openModal(competition)"
-              :class="event.id === 2 ? 'lg:min-w-[49%]' : ''"
-              class="bg-gradient-to-bl from-blue-700 to-85% from-20% min-w-[20rem] to-blue-900 h-96 rounded-xl cursor-pointer group"
-              v-for="competition in event.competitions"
-              :key="competition.id"
-            >
+            <div @click="openModal(competition)" :class="event.id === 2 ? 'lg:min-w-[49%]' : ''" class="bg-blue-800 min-w-[20rem] h-80 rounded-xl cursor-pointer group" v-for="competition in event.competitions" :key="competition.id">
               <div class="h-1/2 p-5 uppercase flex flex-row-reverse">
                 <img class="w-auto h-full" :src="competition.imgUrl" alt="" />
               </div>
@@ -25,6 +19,11 @@
         </div>
       </Tab>
     </TabsWrapper>
+  </div>
+  <div class="bg-slate-800 rounded-3xl p-5 text-lg font-semibold">
+    <a href="https://online.flippingbook.com/view/1034532067/" class="fbo-embed" data-fbo-id="5902288749" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%"
+      >Booklet ArtQtion 3.0 (Klik disini jika tidak muncul)
+    </a>
   </div>
 </template>
 
