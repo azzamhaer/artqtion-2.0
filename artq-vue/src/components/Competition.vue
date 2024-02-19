@@ -17,7 +17,7 @@
               <div class="h-1/2 p-5 uppercase flex text-3xl font-bold flex-col-reverse">
                 <div class="w-3/4 overflow-hidden">
                   <h3>{{ competition.title }}</h3>
-                  <div class="bg-gradient-to-tr from-red-700 to-red-900 h-2 w-full mt-3 -translate-x-full duration-300 group-hover:translate-x-0"></div>
+                  <div class="bg-gradient-to-tr from-slate-100 to-slate-400 rounded-e-full h-2 w-full mt-3 -translate-x-full duration-300 group-hover:translate-x-0"></div>
                 </div>
               </div>
             </div>
