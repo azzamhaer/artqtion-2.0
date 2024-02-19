@@ -10,7 +10,7 @@
                 :class="{ 'right-0 translate-x-[110%]': schedule.id % 2 === 0, 'left-0 -translate-x-[110%]': schedule.id % 2 !== 0 }"
                 class="lg:p-6 p-4 flex flex-col gap-2 absolute top-0 -translate-y-1/2 bg-gradient-to-tr to-red-800 from-red-900 rounded-2xl"
               >
-                <img v-if="schedule.imgUrl" :src="schedule.imgUrl" src="" alt="" />
+                <!-- <img v-if="schedule.imgUrl" :src="schedule.imgUrl" src="" alt="" /> -->
                 <p class="text-lg sm:text-3xl lg:text-4xl font-semibold w-full flex">
                   {{ schedule.acara }}
                 </p>
