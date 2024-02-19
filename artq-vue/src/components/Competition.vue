@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center py-20 w-full justify-center">
+  <div class="flex flex-col items-center py-20 w-full justify-center">
     <TabsWrapper class="container" :tabTitles="eventTitles">
       <Tab v-for="event in events" :key="event.id" :title="event.name">
         <div class="w-full flex">
@@ -19,6 +19,11 @@
         </div>
       </Tab>
     </TabsWrapper>
+  </div>
+  <div class="bg-slate-800 rounded-3xl p-5 text-lg font-semibold">
+    <a href="https://online.flippingbook.com/view/1034532067/" class="fbo-embed" data-fbo-id="5902288749" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%"
+      >Booklet ArtQtion 3.0 (Klik disini jika tidak muncul)
+    </a>
   </div>
 </template>
 

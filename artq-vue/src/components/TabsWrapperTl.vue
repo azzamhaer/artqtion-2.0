@@ -1,6 +1,6 @@
 <template>
   <div class="relative w-full justify-center flex flex-col gap-12">
-    <div class="grid gap-y-4 py-4 bg-slate-800 rounded-full lg:w-3/5 self-center text-center relative mb-3 lg:mb-6 overflow-hidden" :class="`grid-cols-${tabTitles.length}`">
+    <div class="grid gap-y-4 py-4 bg-slate-800 w-full rounded-full lg:w-3/5 self-center text-center relative mb-3 lg:mb-6 overflow-hidden" :class="`grid-cols-${tabTitles.length}`">
       <span
         v-for="(tabTitle, index) in tabTitles"
         :key="tabTitle"
