@@ -12,7 +12,7 @@
         <div class="flex-col sm:flex-row lg:flex-col flex gap-5">
           <div class="flex gap-2 flex-col">
             <h1 class="font-semibold">More Information</h1>
-            <a class="flex gap-2 items-center" href="https://online.flippingbook.com/view/1034532067/"><BookletIcon class="w-6 h-auto" /> Booklet Artqtion 3.0</a>
+            <a class="flex gap-2 items-center" href="https://online.flippingbook.com/view/850248975/"><BookletIcon class="w-6 h-auto" /> Booklet Artqtion 3.0</a>
           </div>
           <div class="flex gap-2 flex-col">
             <h1 class="font-semibold">Contact Person (Fast Response 20.00-22.30)</h1>
@@ -24,6 +24,7 @@
           <h1 class="font-semibold">Our Social Media</h1>
           <a class="flex gap-2 items-center" href="https://www.youtube.com/@art-qtionofficial2273"><YoutubeIcon class="w-6 h-auto" /> Art-Qtion Official </a>
           <a class="flex gap-2 items-center" href="https://www.instagram.com/artqtion.official"><InstagramIcon class="w-6 h-auto" /> @artqtion.official</a>
+          <a class="flex gap-2 items-center" href="https://www.tiktok.com/@artqtion.official"><TiktokIcon class="w-6 h-auto" /> @artqtion.official</a>
         </div>
       </div>
     </div>
@@ -35,4 +36,5 @@ import WhatsappIcon from "./icons/WhatsappIcon.vue";
 import InstagramIcon from "./icons/InstagramIcon.vue";
 import YoutubeIcon from "./icons/YoutubeIcon.vue";
 import BookletIcon from "./icons/BookletIcon.vue";
+import TiktokIcon from "./icons/TiktokIcon.vue";
 </script>

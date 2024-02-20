@@ -22,15 +22,15 @@
     <div class="bg-slate-800 container h-auto flex flex-col items-center rounded-3xl p-5 text-2xl font-semibold">
       <p class="">Booklet ArtQtion 3.0</p>
       <a
-        href="https://online.flippingbook.com/view/1034532067/"
+        href="https://online.flippingbook.com/view/850248975/"
         class="fbo-embed text-blue-600"
-        data-fbo-id="5902288749"
-        data-fbo-ratio="3:2"
+        data-fbo-id="ddfb24107a"
+        data-fbo-ratio="4:3"
         data-fbo-lightbox="yes"
-        data-fbo-width="100%"
+        data-fbo-width="75%"
         data-fbo-height="auto"
         data-fbo-version="1"
-        style="max-width: 100%"
+        style="max-width: 75%"
         >(Klik disini jika tidak muncul)
       </a>
     </div>

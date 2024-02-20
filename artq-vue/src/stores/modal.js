@@ -130,7 +130,7 @@ export const useModalStore = defineStore("modal", () => {
           terms: [
             {
               nama: "Syarat Peserta",
-              isi: ["Lomba terbuka untuk umum.", "Peserta berupa perorangan dengan batasan usia maksimal 20 tahun.", "Setiap peserta hanya diperbolehkan mengirimkan satu entri."],
+              isi: ["Lomba terbuka untuk umum.", "Peserta berupa perorangan dengan batasan usia maksimal 20 tahun.", "Setiap peserta hanya diperbolehkan mengirimkan satu entri.", "peserta diwajibkan membayar Rp.50.000 saat mendaftar"],
             },
             {
               nama: "Ketentuan Lomba",
@@ -282,6 +282,7 @@ export const useModalStore = defineStore("modal", () => {
                 "Melampirkan surat keterangan siswa (SKS) dari sekolah.",
                 "Pas foto 3x4 (2 lembar).",
                 "Mengisi formulir pendaftaran.",
+                "setiap tim diwajibkan membayar Rp. 150.000 saat mendaftar",
                 "Peserta lomba wajib menggunakan seragam sekolah saat mengikuti lomba.",
                 "Setiap sekolah maksimal mengirimkan 2 peserta lomba untuk mengerjakan kanvas.",
               ],

@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import YoutubeIcon from "./icons/YoutubeIcon.vue";
 import InstagramIcon from "./icons/InstagramIcon.vue";
+import TiktokIcon from "./icons/TiktokIcon.vue";
 
 const countdownDate = new Date("Feb 24, 2024 00:00:00").getTime();
 
@@ -45,9 +46,10 @@ updateCountdown();
             memberikan inspirasi dan pencerahan kepada para peserta.
           </p>
         </div>
-        <div class="w-auto lg:w-auto flex gap-5">
+        <div class="w-auto lg:w-auto flex-wrap flex gap-5">
           <a class="bg-blue-800 p-3 gap-2 rounded-full flex text-sm lg:text-lg font-semibold capitalize" href="https://www.youtube.com/@art-qtionofficial2273"><YoutubeIcon class="w-6 h-auto" /> our youtube</a>
           <a class="bg-blue-800 p-3 gap-2 rounded-full flex text-sm lg:text-lg font-semibold capitalize" href="https://www.instagram.com/artqtion.official"><InstagramIcon class="w-6 h-auto" /> our instagram</a>
+          <a class="bg-blue-800 p-3 gap-2 rounded-full flex text-sm lg:text-lg font-semibold capitalize" href="https://www.tiktok.com/@artqtion.official"><TiktokIcon class="w-6 h-auto" /> our TikTok</a>
         </div>
         <div class="flex mt-8">
           <div class="h-12 lg:h-28 mx-3 lg:mx-5">
