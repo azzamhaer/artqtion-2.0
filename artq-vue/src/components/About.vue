@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from "vue";
+import YoutubeIcon from "./icons/YoutubeIcon.vue";
+import InstagramIcon from "./icons/InstagramIcon.vue";
 
 const countdownDate = new Date("Feb 24, 2024 00:00:00").getTime();
 
@@ -44,8 +46,8 @@ updateCountdown();
           </p>
         </div>
         <div class="w-auto lg:w-auto flex gap-5">
-          <button class="bg-blue-800 p-3 rounded-full"><a class="text-sm lg:text-lg font-semibold capitalize" href="https://www.youtube.com/@art-qtionofficial2273">our youtube</a></button>
-          <button class="bg-blue-800 p-3 rounded-full"><a class="text-sm lg:text-lg font-semibold capitalize" href="https://www.instagram.com/artqtion.official">our instagram</a></button>
+          <a class="bg-blue-800 p-3 gap-2 rounded-full flex text-sm lg:text-lg font-semibold capitalize" href="https://www.youtube.com/@art-qtionofficial2273"><YoutubeIcon class="w-6 h-auto" /> our youtube</a>
+          <a class="bg-blue-800 p-3 gap-2 rounded-full flex text-sm lg:text-lg font-semibold capitalize" href="https://www.instagram.com/artqtion.official"><InstagramIcon class="w-6 h-auto" /> our instagram</a>
         </div>
         <div class="flex mt-8">
           <div class="h-12 lg:h-28 mx-3 lg:mx-5">

@@ -19,11 +19,11 @@
         </div>
       </Tab>
     </TabsWrapper>
-    <div class="bg-slate-800 container flex flex-col items-center rounded-3xl p-5 text-lg font-semibold">
-      <p>Booklet ArtQtion 3.0</p>
+    <div class="bg-slate-800 container h-auto flex flex-col items-center rounded-3xl p-5 text-2xl font-semibold">
+      <p class="">Booklet ArtQtion 3.0</p>
       <a
         href="https://online.flippingbook.com/view/1034532067/"
-        class="fbo-embed"
+        class="fbo-embed text-blue-600"
         data-fbo-id="5902288749"
         data-fbo-ratio="3:2"
         data-fbo-lightbox="yes"
