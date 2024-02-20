@@ -15,16 +15,16 @@ export const useModalStore = defineStore("modal", () => {
           id: 2,
           acara: "Gladi Resik",
         },
-        {
-          id: 3,
-          acara: "Grand Opening",
-        },
       ],
     },
     {
       id: 2,
       title: "Day 2", // Corrected title
       schedules: [
+        {
+          id: 3,
+          acara: "Grand Opening",
+        },
         {
           id: 4,
           acara: "Penyambutan",

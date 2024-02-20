@@ -32,10 +32,11 @@ const scrollDown = () => {
 
 <template>
   <div class="w-full relative h-screen flex flex-col justify-center items-center">
-    <div class="uppercase max-w-4xl font-black flex flex-col justify-center items-center font-default">
+    <div class="uppercase max-w-4xl font-bold flex flex-col justify-center items-center">
       <img src="../assets/img/heroArtq.png" alt="" />
       <!-- <h1 class="md:text-8xl text-6xl">Artqtion</h1>
       <h1 class="md:text-[5.3rem] text-[3.25rem]">Three.Zero</h1> -->
+      <h2 class="text-3xl capitalize w-full text-center">Jelajahi masa lalu, ciptakan sejarah baru</h2>
     </div>
     <div class="py-8 px-20 rounded-[3rem] bg-blue-600 gap-y-1 font-semibold gap-x-2 shadow-lg bg-opacity-65 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 text-center justify-center items-center my-5">
       <h2 class="text-6xl">{{ days }}</h2>
