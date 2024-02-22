@@ -43,7 +43,7 @@ const router = createRouter({
       component: () => import("../views/TermsView.vue"),
     },
     {
-      path: "/pengumpulan",
+      path: "/upload",
       name: "pengumpulan",
       component: () => import("../views/PengumpulanView.vue"),
     },

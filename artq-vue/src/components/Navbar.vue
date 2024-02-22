@@ -30,6 +30,7 @@
               ' w-[75.5833px] ': $route.path === '/schedule',
               ' w-[49.2833px] ': $route.path === '/about',
               ' w-[52.0333px] ': $route.path === '/terms',
+              ' w-[335.217px] ': $route.path === '/upload',
             }"
           ></div>
         </div>
