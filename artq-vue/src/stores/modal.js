@@ -73,7 +73,7 @@ export const useModalStore = defineStore("modal", () => {
       name: "Online",
       competitions: [
         {
-          id: "LandingPage",
+          id: "web-landing-page",
           title: "Web Landing Page",
           imgUrl: "http://cdn.artqtion.com/landing-page.png",
           btnLink: "/register",
@@ -101,7 +101,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: "NewsAnchor",
+          id: "news-anchor",
           title: "News Anchor",
           imgUrl: "http://cdn.artqtion.com/news-anchor.png",
           btnLink: "/register",
@@ -120,7 +120,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: "KomikAntologi",
+          id: "komik-antologi",
           title: "Komik Antologi",
           imgUrl: "http://cdn.artqtion.com/komik-antalogi.png",
           btnLink: "/register",
@@ -149,7 +149,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: "GameJam",
+          id: "gamejam",
           title: "GameJam",
           imgUrl: "http://cdn.artqtion.com/gamjam.png",
           btnLink: "/register",
@@ -188,7 +188,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: "SoloShowcase",
+          id: "solo-showcase",
           title: "Solo Showcase",
           imgUrl: "http://cdn.artqtion.com/monolog.png",
           btnLink: "/register",
@@ -213,7 +213,7 @@ export const useModalStore = defineStore("modal", () => {
           ],
         },
         {
-          id: "ThematicTafakkur",
+          id: "thematic-tafakkur",
           title: "Thematic Tafakkur",
           imgUrl: "http://cdn.artqtion.com/tadabbur.png",
           btnLink: "/register",

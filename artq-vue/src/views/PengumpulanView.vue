@@ -1,6 +1,6 @@
 <template>
-  <div v-for="event in modal.events" class="container gap-3 flex flex-wrap justify-center">
-    <a :href="`https://upload.artqtion.com/${competition.id}`" v-for="competition in event.competitions" class="w-1/4 h-44 bg-gradient-to-tr from-blue-800 to-blue-600 p-3 rounded-xl">
+  <div class="container gap-3 flex flex-wrap justify-center">
+    <a :href="`https://upload.artqtion.com/${competition.id}`" v-for="competition in modal.events[0].competitions" class="w-1/4 h-44 bg-gradient-to-tr from-blue-800 to-blue-600 p-3 rounded-xl">
       <div class="h-3/4 flex flex-row-reverse">
         <img class="w-auto h-full" :src="competition.imgUrl" alt="" />
       </div>
