@@ -57,7 +57,7 @@ export const useModalStore = defineStore("modal", () => {
         {
           id: 9,
           acara: "Pengumpulan Akhir",
-          tanggal: "",
+          tanggal: "27 Februari 2024, Komik Antologi : 26 Februari 2024",
         },
         {
           id: 10,
